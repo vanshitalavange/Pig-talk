@@ -2,15 +2,14 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-   margin:0px;
+  margin: 0px;
 }
 :root {
-  --primary-color: #FCA5A5;
+  --primary-color: #fca5a5;
   --gray-color: #6b7280;
-  --darkgray-color:#4B5563
-  ;
-  
-  --darkpink-color:#F87171;
+  --darkgray-color: #4b5563;
+
+  --darkpink-color: #f87171;
 }
 
 .list-non-bullet {
@@ -24,14 +23,14 @@ body {
 /** navbar **/
 .navigation {
   background-color: var(--primary-color);
-  color:var(--darkgray-color);
+  color: var(--darkgray-color);
   padding: 1.5rem;
   border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand {
   font-weight: bold;
-  font-size:2.5rem;
-  text-align:center;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 /** header **/
@@ -55,54 +54,52 @@ body {
 .hero .heading-inverted {
   color: var(--primary-color);
 }
-.main{
-    max-width:700px;
-    margin:auto;
-  
+.main {
+  max-width: 700px;
+  margin: auto;
 }
-.input-text{
-    margin:auto;
-    display:block;
-    width:55%;
-    height:10vh;
-    border : 1px solid var(--darkpink-color);
-    border-radius: 0.5rem;
-    padding:1rem 1rem;
-}
-
-.translate-button{
-    margin:auto;
-    margin-top:2rem;
-    display:block;
-    padding:1rem 2.5rem;
-    border : 1px solid var(--darkpink-color);
-    border-radius: 0.5rem;
-    background-color: var(--primary-color);
-    color:var(--darkgray-color);
-    font-weight: bold;
-    font-size:1rem;
+.input-text {
+  margin: auto;
+  display: block;
+  width: 55%;
+  height: 10vh;
+  border: 1px solid var(--darkpink-color);
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
 }
 
-.output{
-    margin:auto;
-    display: block;
-    text-align: center;
-    color:var(--gray-color);
-    font-weight:bold;
-    font-size:1.5rem;
-    padding:1rem;
+.translate-button {
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--darkpink-color);
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--darkgray-color);
+  font-weight: bold;
+  font-size: 1rem;
 }
 
-#output{
-    margin:auto;
-    display:block;
-    width:55%;
-    height:10vh;
-    border : 1px solid var(--darkpink-color);
-    border-radius: 0.5rem;
-    padding:1rem 1rem;
-    margin-bottom: 2rem;
+.output {
+  margin: auto;
+  display: block;
+  text-align: center;
+  color: var(--gray-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 
+#output {
+  margin: auto;
+  display: block;
+  width: 55%;
+  height: 10vh;
+  border: 1px solid var(--darkpink-color);
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
 }
 
 /** footer  **/
@@ -113,7 +110,6 @@ body {
   color: white;
   text-align: center;
   padding: 2rem 1rem;
-
 }
 .footer .footer-heading {
   font-weight: bold;
